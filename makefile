@@ -1,6 +1,6 @@
 COMPILER = gcc
 FILE = main.c
-SCRIPT = ./a.out
+SCRIPT = ./a.exe
 
 run:
 	$(COMPILER) $(FILE)
