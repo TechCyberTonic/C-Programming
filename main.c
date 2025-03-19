@@ -3,10 +3,11 @@
 int main()
 {
   bool iscomputer = "True";
+  bool islaptop = "True";
   printf("hello world!");
-  if(iscomputer == true)
+  if(iscomputer == true && islaptop == true)
   {
-    printf("Setup completed in Computer");
+    printf("Setup completed in Computer & laptop");
   }
   else
   {
